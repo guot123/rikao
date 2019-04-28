@@ -5,7 +5,6 @@ class Sum
         $arr = array($sum2);
         $arr1 = array($sum3);
         $sum = array_merge($arr,$arr1);
-        
         return array_sum($sum);
     }
 }
